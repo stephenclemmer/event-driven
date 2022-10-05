@@ -1,7 +1,7 @@
 
 'use strict';
 
-const eventPool = require('../eventPool');
+require('../eventPool');
 
 module.exports = (payload) =>  {
   setTimeout(() => {
