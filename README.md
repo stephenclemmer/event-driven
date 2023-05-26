@@ -2,6 +2,10 @@
 
 Author: Stephen Clemmer
 
+### DEPENDENCIES
+
+npm i chance
+
 ### Links and Resources
 
 **UML**
