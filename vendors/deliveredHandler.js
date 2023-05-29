@@ -5,6 +5,6 @@ require('../eventPool');
 
 module.exports = (payload) =>  {
   setTimeout(() => {
-    console.log(`========== We love our NEW THING! ===========` );
+    console.log(`========== We love our NEW THING! ===========`, payload);
   }, 2000);
 };

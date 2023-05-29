@@ -8,6 +8,14 @@ npm i chance
 
 ### Links and Resources
 
+<!-- To start the customer in the terminal: node customer.js -->
+
+To start the hub ion the terminal run: node hub.js
+
+
+
+
+
 **UML**
 ![Lab 11 UML](./assets/Lab%2011%20UML.png)
 

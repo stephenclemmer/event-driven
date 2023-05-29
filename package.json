@@ -25,7 +25,7 @@
   "dependencies": {
     "base-64": "^1.0.0",
     "bcrypt": "^5.0.1",
-    "chance": "^1.1.8",
+    "chance": "^1.1.11",
     "cors": "^2.8.5",
     "dotenv": "^16.0.3",
     "eslint": "^8.24.0",

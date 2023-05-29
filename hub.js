@@ -4,6 +4,7 @@ const eventPool = require('./eventPool');
 const requestHandler = require('./drivers/requestHandler');
 const pickedUpHandler = require('./vendors/pickedUpHandler');
 const deliveredHandler = require('./vendors/deliveredHandler');
+// const customer = require('./customer');
 
 const Chance = require('chance');
 const chance = new Chance();
@@ -21,7 +22,7 @@ setInterval(() => {
   };
 
   eventPool.emit('PICKUP', { order });
-  console.log(`************ Pick up for delivery *****************` );
+  console.log(`************ Pick up for delivery *****************`, order );
 }, 9000);
 
 
